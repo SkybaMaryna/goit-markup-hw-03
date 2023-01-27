@@ -151,7 +151,6 @@ p {
 /* Hero */
 
 .hero {
-    margin-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -195,9 +194,6 @@ p {
 
 /* Advances */
 
-.advances {
-    margin-bottom: 94px;
-}
 .advance-list {
     display: flex;
 }
@@ -208,6 +204,11 @@ p {
 
 .advance-list .item:not(:last-child) {
     margin-right: 30px;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-title {
@@ -238,10 +239,6 @@ p {
 
 /* What we do */
 
-.directions {
-    margin-bottom: 94px;
-}
-
 .direction-list {
     display: flex;
 }
@@ -253,9 +250,6 @@ p {
 /* Team */
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--bg-color-light);
 }
 
@@ -346,11 +340,6 @@ p {
 }
 
 /* Portfolio */
-
-.works {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 
 .filters-list {
     display: flex;
