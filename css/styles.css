@@ -88,7 +88,7 @@ p {
 
 .logo-footer {
     display: inline-block;
-    margin-bottom: 15.5px;
+    margin-bottom: 20px;
 
     color: var(--primary-light);
 }
@@ -239,6 +239,10 @@ p {
 
 /* What we do */
 
+.directions {
+    padding-top:0;
+}
+
 .direction-list {
     display: flex;
 }
@@ -296,10 +300,11 @@ p {
 
 /* Footer */
 
+.contact-list .item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .address {
     display: inline-block;
-    padding-top: 4.5px;
-    padding-bottom: 4.5px;
 
     color: var(--primary-light);
     font-style: normal;
@@ -316,8 +321,6 @@ p {
 
 .contact-footer {
     display: inline-block;
-    padding-top: 4.5px;
-    padding-bottom: 4.5px;
 
     color: var(--secondary-light);
     font-style: normal;
@@ -344,7 +347,7 @@ p {
 .filters-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .filters-list .item:not(:last-child) {
